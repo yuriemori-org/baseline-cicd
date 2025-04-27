@@ -1,9 +1,9 @@
-name: Publish NuGet Package
+name: Publish NuGet Package to GitHub Packages
 
 on:
   push:
     branches:
-      - main
+      - main   # または任意のブランチ名
 
 jobs:
   publish:
@@ -11,21 +11,22 @@ jobs:
 
     steps:
     - name: Checkout code
-      uses: actions/checkout@v3
+      uses: actions/checkout@v4
 
     - name: Setup .NET
       uses: actions/setup-dotnet@v3
       with:
         dotnet-version: '8.0.x'
+        token: ${{ secrets.GITHUB_TOKEN }}  # GITHUB_TOKENで認証
 
     - name: Restore dependencies
-      run: dotnet restore MyNugetPackage/MyNugetPackage.csproj
+      run: dotnet restore
 
     - name: Build project
-      run: dotnet build MyNugetPackage/MyNugetPackage.csproj --configuration Release
+      run: dotnet build --configuration Release --no-restore
 
-    - name: Pack NuGet package
-      run: dotnet pack MyNugetPackage/MyNugetPackage.csproj --configuration Release --output ./artifacts
+    - name: Pack project
+      run: dotnet pack --configuration Release --no-build
 
-    - name: Publish to GitHub Packages
-      run: dotnet nuget push ./artifacts/*.nupkg --source "github" --api-key ${{ secrets.GITHUB_TOKEN }}
+    - name: Push NuGet package
+      run: dotnet nuget push "**/bin/Release/*.nupkg" --source "github" --skip-duplicate
