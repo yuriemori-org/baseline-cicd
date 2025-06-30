@@ -23,3 +23,8 @@ jobs:
 
     - name: Build project
       run: dotnet build MyNugetPackage/MyNugetPackage.csproj --configuration Release --no-restore
+  status-check01:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
