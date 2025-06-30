@@ -1,2 +1,1 @@
 # baseline-cicd
-test
