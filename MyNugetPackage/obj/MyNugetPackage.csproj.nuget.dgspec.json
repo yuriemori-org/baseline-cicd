@@ -1,26 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj": {}
+    "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj": {}
   },
   "projects": {
-    "/workspaces/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj": {
+    "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj",
+        "projectUniqueName": "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj",
         "projectName": "MyNugetPackage",
-        "projectPath": "/workspaces/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/baseline-cicd/MyNugetPackage/obj/",
+        "projectPath": "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj",
+        "packagesPath": "/home/runner/.nuget/packages/",
+        "outputPath": "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/nuget.config",
+          "/home/runner/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/yuriemori-org/index.json": {}
         },
         "frameworks": {
           "net8.0": {
@@ -32,11 +34,6 @@
           "warnAsError": [
             "NU1605"
           ]
-        },
-        "restoreAuditProperties": {
-          "enableAudit": "true",
-          "auditLevel": "low",
-          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -58,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.117/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

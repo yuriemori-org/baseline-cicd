@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tqbdQqy6uy0=",
+  "dgSpecHash": "Gh9sP39q/YRvNh9VXg/UK9fnJlheL2ZWjYO0Atgo9MKTuy0TjcTUD/GIUGNXC9OzmPUhAXTWHDlAErkBPiX8Ig==",
   "success": true,
-  "projectFilePath": "/workspaces/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj",
+  "projectFilePath": "/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/MyNugetPackage.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
