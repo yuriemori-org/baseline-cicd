@@ -1,0 +1,12 @@
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/bin/Debug/net8.0/MyNugetPackage.deps.json
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/bin/Debug/net8.0/MyNugetPackage.dll
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/bin/Debug/net8.0/MyNugetPackage.pdb
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.GeneratedMSBuildEditorConfig.editorconfig
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.AssemblyInfoInputs.cache
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.AssemblyInfo.cs
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.csproj.CoreCompileInputs.cache
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.sourcelink.json
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.dll
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/refint/MyNugetPackage.dll
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/MyNugetPackage.pdb
+/home/runner/work/baseline-cicd/baseline-cicd/MyNugetPackage/obj/Debug/net8.0/ref/MyNugetPackage.dll
